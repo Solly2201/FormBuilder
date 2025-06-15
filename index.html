@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class = "navbar">
+            <ul>
+                <li><a href = "responses.html" style="text-decoration: none;">View Responses</a></li>
+                <li>Made By: <a href = "https://www.linkedin.com/in/shreshtha-bindal-822106254/">Solly</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class = "container">
+            <div class = "box">
+                <h3>Form Elements</h3>
+                <div class = "draggable" draggable="true" data-type="big-heading">Big Heading</div>
+                <div class = "draggable" draggable="true" data-type="small-heading">Small Heading</div>
+                <div class = "draggable" draggable="true" data-type="paragraph">Paragraph</div>
+
+                <div class = "draggable" draggable="true" data-type="text">Text Input</div>
+                <div class = "draggable" draggable="true" data-type="textarea">Text Area</div>
+
+                <div class = "draggable" draggable="true" data-type="select">Dropdown</div>
+                <div class = "draggable" draggable="true" data-type="radio">Multiple Options</div>
+                <div class = "draggable" draggable="true" data-type="checkbox">Checkbox</div>
+
+                <div class = "draggable" draggable="true" data-type="hr">Line</div>
+                
+                <h5>&lt Drag Elements To Start Building &gt</h5>
+            </div>
+            <div class = "formbox" id = "formbox">
+                <h3><input type = "text" value = "Form Title" id = "titlee" placeholder="Form Title"></h3>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

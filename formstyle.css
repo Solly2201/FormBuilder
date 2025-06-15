@@ -1,0 +1,119 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #968f8f51;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.titlediv{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    background-color: rgba(255, 211, 211, 0.055);
+    color: rgba(5, 2, 25);
+    text-transform: uppercase;
+    border: .3px solid black;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+#page_title{
+    font-weight: normal;
+}
+.survey-container{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 1000px;
+}
+.form-group{
+    margin-bottom: 28px;
+}
+
+label{
+    font-size: 16px;
+    color: #202121;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.radio, .checkbox,.select{
+    font-size: 18px;
+}
+.survey-container .BigHead{
+    font-size: 45px;
+    font-weight: normal;
+}
+.survey-container .SmallHead{
+    font-size: 30px;
+    font-weight: normal;
+}
+.line{
+    border:none;
+    border-top: 2px dashed #999;
+    margin: 30px 0;
+    margin-bottom: 30px;
+}
+.survey-container .TextInputBox, .TextAreaBox, .SelectBox{
+    width: 100%;
+    margin-top: 4px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.1);
+    font-size: 14px;
+    color: #202121;
+}
+.TextAreaBox{
+    min-height: 150px;
+    resize: none;
+}
+.survey-container .SelectBox{
+    width: 60%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    gap: 10px
+}
+button{
+    padding: 10px;
+    background-color: rgba(251, 6, 6);
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0.2px solid black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.144);
+    margin-top: 10px;
+    width: 20%;
+    align-items: center;
+}
+button:disabled{
+    background-color: rgba(0, 0, 0, 0.628);
+}
+button:hover{
+    background-color: rgb(118, 4, 4);
+}
+.buttonclass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type='radio'], input[type='checkbox']{
+    width: 18px;
+    height: 15px;
+    accent-color: #008cffc0;
+    cursor: pointer;
+}
+#success{
+    margin-top: 10px;
+}

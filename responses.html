@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Responses</title>
+    <link rel = "stylesheet" href="formstyle.css">
+    <link rel = "stylesheet" href = "responsestyle.css">
+    <script src = "responsescript.js" defer></script>
+</head>
+<body>
+    <div class = "survey-container">
+        <div class = "center-box" id = "formInput">
+            <h2>Enter Form ID</h2>
+            <input type="text" id = "formIDInput">
+            <button id = 'loadbtn'>Load Responses</button>
+            <p id = "error" style = "color: red;margin-top: 10px;"></p>
+        </div>
+        <div id = "response-container" style = "display: none;"></div>
+    </div>
+</body>
+</html>
